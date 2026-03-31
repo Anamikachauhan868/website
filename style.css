@@ -1,0 +1,64 @@
+body{
+font-family: Arial;
+margin:0;
+background:#f4f4f4;
+}
+
+header{
+background:#0b7dda;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav{
+margin-top:10px;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+font-weight:bold;
+}
+
+section{
+padding:40px;
+background:white;
+margin:20px;
+border-radius:8px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+button{
+background:#0b7dda;
+color:white;
+border:none;
+padding:10px 20px;
+cursor:pointer;
+border-radius:5px;
+}
+
+button:hover{
+background:#095ab5;
+}
+
+form{
+display:flex;
+flex-direction:column;
+gap:10px;
+max-width:400px;
+}
+
+input,select,textarea{
+padding:10px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#222;
+color:white;
+}
