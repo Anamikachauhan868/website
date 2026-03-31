@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manavya Foundation</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h1>Manavya Foundation</h1>
+<p>Helping People • Building Future</p>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#volunteer">Become a Volunteer</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section id="home">
+<h2>Welcome to Manavya Foundation</h2>
+<p>Manavya Foundation is an NGO dedicated to helping underprivileged communities through education, social work, and support programs. Our mission is to create a better society by empowering people and spreading kindness.</p>
+<button onclick="scrollToVolunteer()">Join Us</button>
+</section>
+
+<section id="about">
+<h2>About Us</h2>
+<p>
+Manavya Foundation works to improve the lives of people who need help the most. We organize education drives, social awareness campaigns, and community support activities. Our volunteers play an important role in making a positive impact in society.
+</p>
+</section>
+
+<section id="volunteer">
+<h2>Become a Volunteer</h2>
+
+<form id="volunteerForm">
+<input type="text" id="name" placeholder="Full Name" required>
+<input type="email" id="email" placeholder="Email" required>
+<input type="tel" id="phone" placeholder="Phone Number" required>
+
+<select id="interest" required>
+<option value="">Select Area of Interest</option>
+<option value="Teaching">Teaching</option>
+<option value="Social Work">Social Work</option>
+<option value="Event Management">Event Management</option>
+<option value="Awareness Campaign">Awareness Campaign</option>
+</select>
+
+<textarea id="message" placeholder="Why do you want to volunteer?" required></textarea>
+
+<button type="submit">Submit</button>
+</form>
+
+<p id="successMessage"></p>
+</section>
+
+<section id="contact">
+<h2>Contact Us</h2>
+<p>Email: manavyafoundation@gmail.com</p>
+<p>Phone: 9058932838</p>
+</section>
+
+<footer>
+<p>© 2026 Manavya Foundation | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
