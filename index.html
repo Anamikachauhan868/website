@@ -35,23 +35,25 @@ Manavya Foundation works to improve the lives of people who need help the most. 
 
 <section id="volunteer">
 <h2>Become a Volunteer</h2>
-
-<form action="https://formspree.io/f/xyzabcde" method="POST">
-<input type="text" name="name" placeholder="Full Name" required>
-<input type="email" name="email" placeholder="Email" required>
-<input type="tel" name="phone" placeholder="Phone Number" required>
-
-<select name="interest" required>
-<option value="">Select Area of Interest</option>
-<option>Teaching</option>
-<option>Social Work</option>
-<option>Event Management</option>
-<option>Awareness Campaign</option>
-</select>
-
-<textarea name="message" placeholder="Why do you want to volunteer?" required></textarea>
-
+ <form action=" https://formspree.io/f/xkopbbeg" method="post">
+<input type="text" placeholder="Your Name" required>
+<input type="email" placeholder="Your Email" required>
+<input type="text" placeholder="Phone Number" required>
+<textarea placeholder="Why do you want to join?" required></textarea>
 <button type="submit">Submit</button>
+</form>
+
+</section>
+</section>
+
+<section class="contact" id="contact">
+<h2>Contact Us</h2>
+
+<form onsubmit="return validateForm()">
+<input type="text" id="name" placeholder="Your Name">
+<input type="email" id="email" placeholder="Your Email">
+<textarea id="message" placeholder="Your Message"></textarea>
+<button type="submit">Send Message</button>
 </form>
 
 <p id="successMessage"></p>
